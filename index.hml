@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lgna</title>
+  <link rel="icon" href="assets/icon.png">
+  <style>
+    @font-face {
+      font-family: 'Geist-Regular';
+      src: url('./assets/Geist-Regular.otf') format('opentype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      font-family: 'Geist-Regular', sans-serif;
+      margin: 1.25rem;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: black;
+      color: white;
+    }
+
+    .project {
+      padding: 0.7rem;
+      border: 1px solid #ddd;
+    }
+
+    @media screen and (min-width: 600px) {
+      .project {
+      padding: 1.25rem;
+    }
+}
+    
+
+    .link {
+      text-decoration: none;
+      color: #7eafcf;
+      font-size: 0.8rem;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    h2{
+        font-size: 1.2rem;
+    }
+
+    h2, h1 {
+      margin: 0;
+    }
+
+    header{
+        margin-bottom: 2.5rem;
+    }
+
+    .project-title {
+      display: flex;
+      align-items: center;
+    }
+
+    .page-title{
+        width: min-content;
+        margin-bottom: 1.3rem;
+    }
+
+    .logo {
+      width: 3.5rem;
+    }
+
+    .header-logo {
+      width: 5em;
+      border-color: white;
+    }
+
+    .link:hover {
+      text-decoration: underline;
+    }
+
+    .welcome {
+      font-weight: bold;
+    }
+
+    .separator {
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <a href="/" class="project-title page-title">
+      <img src="assets/lgna.png" alt="logo lgna" class="header-logo">
+      <h1 class="welcome">lgna</h1>
+    </a>
+        <p>Bienvenue sur <span class="welcome">lgna.fr</span>, annuaire des projets <span class="welcome">lgna</span>.</p>
+  </header>
+
+  <section class="project">
+    <div class="project-title">
+      <img src="assets/street-pongiste.png" alt="logo street-pongiste" class="logo">
+      <h2>street-pongiste</h2>
+    </div>
+    <p>Application web et mobile (IOS uniquement) de visualisation des tables de ping-pong en accès libre en France métropolitaine.</p>
+    <div>
+      <a target="_blank" href="https://street-pongiste.lgna.fr" class="link">web</a> <span class="separator">|</span>
+      <a target="_blank" href="https://apps.apple.com/fr/app/street-pongiste/id1665121516" class="link">app store</a> <span class="separator">|</span>
+      <a target="_blank" href="https://github.com/gcothiasfaure/street-pongiste" class="link">github</a>
+    </div>
+  </section>
+
+  <!-- <section class="project">
+    <div class="project-title">
+      <img src="assets/alarescoot.png" alt="logo alarescoot" class="logo">
+      <h2>alarescoot</h2>
+    </div>
+    <p>Application mobile (IOS uniquement) de visualisation des scooters électriques en libre-service les plus proches à Paris (des services Cooltra, Yego et Cityscoot).</p>
+    <div>
+      <a target="_blank" href="https://apps.apple.com/fr/app/alarescoot/id5943965965" class="link">app store</a>  <span class="separator">|</span>
+      <a target="_blank" href="https://github.com/gcothiasfaure/alarescoot" class="link">github</a>
+    </div>
+  </section> -->
+
+</body>
+</html>
